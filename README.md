@@ -1,6 +1,6 @@
 <h1>
   <img align="left" width="130" src="https://zupimages.net/up/23/09/eayw.png"/> Eco'Bin Company&copy; 2022 · 2023 
-  <br/><img src="https://img.shields.io/badge/Version-1.2.1-brightgreen?style=flat&logo=github"/> <img src="https://img.shields.io/badge/Techno-Statique%20HTML%2C%20CSS%20%26%20JS-blue?style=flat&logo=vercel"/> <img src="https://img.shields.io/badge/Authors-%40SkyX%20%5BID%20FR%5D%20%26%20%40XlaTor-critical?style=flat&logo=linkedin"/> <img src="https://img.shields.io/badge/Deploiement-Vercel-black?style=flat&logo=vercel"/>
+  <br/><img src="https://img.shields.io/badge/Version-1.2.1-brightgreen?style=flat&logo=github"/> <img src="https://img.shields.io/badge/Techno-Statique%20HTML%2C%20CSS%20%26%20JS-blue?style=flat&logo=vercel"/> <!-- <img src="https://img.shields.io/badge/Authors-%40SkyX%20%5BID%20FR%5D%20%26%20%40XlaTor-critical?style=flat&logo=linkedin"/> --> <img src="https://img.shields.io/badge/Deploiement-Vercel-black?style=flat&logo=vercel"/>
 </h1>
 
 <p>Ce repos Github regroupe tous les servicew web/IT de la société @EcoBin_Company : à l'heure actuelle, ce dernier compte un site web vitrine complet et fonctionnel qui présente le produit final et l'équipe complète de l'entreprise ainsi que quelques infos utiles concernant l'écologie résumée en quelques chiffres ! 🌳</p>
