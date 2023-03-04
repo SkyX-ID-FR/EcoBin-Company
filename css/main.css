@@ -1,0 +1,319 @@
+/* 
+     ______   ______   ______   ___    _______    ________  ___   __      
+    /_____/\ /_____/\ /_____/\ /__/\ /_______/\  /_______/\/__/\ /__/\    
+    \::::_\/_\:::__\/ \:::_ \ \\::\ \\::: _  \ \ \__.::._\/\::\_\\  \ \   
+     \:\/___/\\:\ \  __\:\ \ \ \\:_\/ \::(_)  \/_   \::\ \  \:. `-\  \ \  
+      \::___\/_\:\ \/_/\\:\ \ \ \      \::  _  \ \  _\::\ \__\:. _    \ \ 
+       \:\____/\\:\_\ \ \\:\_\ \ \      \::(_)  \ \/__\::\__/\\. \`-\  \ \
+        \_____\/ \_____\/ \_____\/       \_______\/\________\/ \__\/ \__\/                                                                      
+        2022-23 Eco'Bin© Society - Website developed by SkyX [ID FR] & XlaTor !
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-size: normal;
+    font-weight: normal;
+    font-family: 'IBM Plex Sans', sans-serif;
+    scroll-behavior: smooth!important;
+}
+
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { border-radius: 10px; }
+
+::-webkit-scrollbar-thumb {
+    background: rgb(204, 204, 204);
+    border-radius: 15px;
+    border-color: transparent;
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(184, 184, 184);
+}
+
+/* 🎨 Header Full Page Style : 🎨 */
+header {
+    height: 80px;
+    padding-top: 10px;
+    padding-bottom: 7px;
+    padding-left: 30px;
+    box-shadow: 0px 10px 180px rgba(225, 225, 225, 0.65);
+    animation: fadeInAnimation ease 1.2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    position: fixed;
+    z-index: 100;
+    background-color: white;
+    width: 93%;
+}
+
+#responsive_menu_popup, #menu_responsive_button { display: none; }
+header .website_logo {
+    width: 90px;
+    float: left;
+    position: relative;
+    margin-right: -7px;
+    margin-left: -10px;
+}
+
+header .title_logo {
+    font-weight: 900;
+    font-size: 40px;
+    color: #1bc455;
+    margin-top: 15px;
+}
+
+header .menu_list {
+    margin-top: 28px;
+    list-style-type: none;
+    text-align: center;
+    margin-left: 41%;
+}
+
+header .menu_list li {
+    transition: all 0.4s;
+    cursor: pointer;
+    font-size: 18px;
+    text-decoration: none;
+    float: left;
+    margin-right: 25px;
+}
+
+header .menu_list li .active {
+    background-color: #1bc455;
+    padding-top: 7px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 20px;
+    color: white;
+    transition: all 0.6s;
+}
+
+header .menu_list li .active:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 100px rgb(186, 186, 186);
+}
+
+header .menu_list li a {
+    text-decoration: none;
+    color: grey;
+    font-weight: 400;
+}
+
+header .menu_list li:hover { transform: scale(1.05); }
+header .menu_list li:active { transform: scale(0.95); }
+
+header .get_started_link {
+    float: right;
+    margin-right: -4.5%;
+    border-radius: 25px;
+    padding-top: 7.5px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 2px solid grey;
+    text-decoration: none;
+    margin-top: -10px;
+    cursor: pointer;
+    transition: all 0.4s;
+    color: gray;
+}
+
+header .get_started_link:hover { transform: scale(1.05); color: black; }
+header .get_started_link:active { transform: scale(0.95); }
+/* 🎨 Header Full Page Style ! 🎨 */
+
+/* 🥇 Hero Section Style : 🥇 */
+.hero_section {
+    padding-top: 155px;
+    text-align: center;
+    z-index: -5;
+}
+
+.hero_section h1 {
+    font-weight: 900;
+    color: #15ba54;
+    font-size: 65px;
+    line-height: 73px;
+    margin-bottom: 30px;
+}
+
+.hero_section h1 strong {
+    position: relative;
+    font-weight: 900;
+    color: white;
+    z-index: -5;
+}
+
+.hero_section h1 strong::before {
+    background-color: #1bc455;
+    content: "";
+    position: absolute;
+    width: calc(100% + 10px);
+    height: 95%;
+    left: -5px;
+    bottom: 0;
+    z-index: -5;
+    transform: rotate(-2deg);
+    top: 7px;
+}
+
+.hero_section .description {
+    color: rgb(166, 166, 166);
+    font-weight: 500;
+    font-size: 17px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero_section a { z-index: 0; }
+.hero_section a .scroller_icon {
+    width: 45px;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.hero_section .scroller_icon:hover { transform: scale(1.2); }
+/* 🥇 End of Hero Section Style ! 🥇 */
+
+/* 🎥 Video Section Page Style : 🎥 */
+#video_presentation_section {
+    text-align: center;
+    padding-top: 120px;
+    margin-top: -50px;
+}
+
+#video_presentation_section .demonstration_text {
+    color: gray;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+    margin-top: 12px;
+}
+
+#video_presentation_section .disabled_video { z-index: -1!important; }
+#video_presentation_section .video-js, video, .vjs-tech {
+    border-radius: 15px!important;
+    width: 50%!important;
+    height: 350px!important;
+    box-shadow: 0px 0px 70px rgb(226, 226, 226);
+}
+
+#video_presentation_section .vjs-tech {
+    width: 100%!important;
+    /* object-fit: cover; */
+} 
+
+#video_presentation_section .vjs-big-play-button {
+    background-color: #1bc455!important;
+    border-color: transparent!important;
+    border-radius: 10px!important;
+    box-shadow: 0px 0px 80px rgb(37, 37, 37);
+}
+
+#video_presentation_section .vjs-control-bar {
+    border-bottom-left-radius: 15px!important;
+    border-bottom-right-radius: 15px!important;
+}
+
+#video_presentation_section .vjs-poster img {
+    object-fit: cover!important;
+    border-radius: 15px!important;
+}
+/* 🎥 End of Video Section Page Style ! 🎥 */
+
+/* 📈 Number List Item Graph Style : 📉 */
+.show_number_section {
+    margin-top: 90px;
+    text-align: center;
+}
+
+.show_number_section .main_title {
+    font-weight: 900;
+    font-size: 50px;
+    color: #15ba54;
+}
+
+.show_number_section .main_description {
+    font-size: 15px;
+    color: gray;
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2px;
+}
+
+.show_number_section ul {
+    list-style: none;
+    margin-top: 50px;
+    display: flex;
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.show_number_section ul li  {
+    margin-right: 30px;
+    padding: 15px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    border: 2px solid rgb(218, 218, 218);
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.show_number_section ul li:hover { transform: scale(1.05); }
+.show_number_section ul li h1 {
+    font-weight: 550;
+    font-size: 50px;
+}
+
+.show_number_section ul li small {
+    color: rgb(55, 55, 55);
+    font-size: 19px;
+    float: right;
+    margin-top: -35px;
+}
+
+.show_number_section ul li #type1 { margin-right: 43px; }
+.show_number_section ul li #type2 { margin-right: 80px; }
+.show_number_section ul li #type3 { margin-right: 38px; }
+.show_number_section ul li #type4 { margin-right: 60px; }
+
+.show_number_section ul li p {
+    width: 220px;
+    color: gray;
+    margin-top: 5px;
+}
+/* 📈 End of Number List Item Graph Style ! 📉 */
+
+/* 📮 Main Page Footer Page : 📮 */
+.main_page_footer {
+    border-top: 2px solid rgb(218, 218, 218);
+    margin-top: 70px;
+    bottom: 0;
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 40px;
+    color: gray;
+}
+
+.main_page_footer .links a {
+    text-decoration: underline;
+    color: gray;
+    text-decoration-thickness: 3px;
+    text-decoration-color: #1bc455;
+}
+/* 📮 End of Main Page Footer Page ! 📮 */
+
+/* ✨ Animations CSS Onload/Click : ✨ */
+@keyframes fadeInAnimation {
+    0% { opacity: 0; } 100% { opacity: 1; }
+}
+/* ✨ End of Animations CSS Onload/Click ! ✨ */

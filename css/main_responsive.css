@@ -1,0 +1,242 @@
+/* 
+     ______   ______   ______   ___    _______    ________  ___   __      
+    /_____/\ /_____/\ /_____/\ /__/\ /_______/\  /_______/\/__/\ /__/\    
+    \::::_\/_\:::__\/ \:::_ \ \\::\ \\::: _  \ \ \__.::._\/\::\_\\  \ \   
+     \:\/___/\\:\ \  __\:\ \ \ \\:_\/ \::(_)  \/_   \::\ \  \:. `-\  \ \  
+      \::___\/_\:\ \/_/\\:\ \ \ \      \::  _  \ \  _\::\ \__\:. _    \ \ 
+       \:\____/\\:\_\ \ \\:\_\ \ \      \::(_)  \ \/__\::\__/\\. \`-\  \ \
+        \_____\/ \_____\/ \_____\/       \_______\/\________\/ \__\/ \__\/                                                                      
+        2022-23 Eco'Bin© Society - Website developed by SkyX [ID FR] & XlaTor !
+*/
+
+@media (max-width: 1321px) { header .get_started_link { margin-right: -3%; } }
+@media (max-width: 1130px) {
+    /* 📈 Number List Item Graph Style : 📉 */
+    .show_number_section .main_description { width: 75%; }
+    .show_number_section ul { 
+        display: block; 
+        margin-left: auto;
+        margin-right: auto;
+        width: 280px;
+    }
+    
+    .show_number_section ul li {
+        width: 230px;
+        margin-bottom: 25px;
+    }
+    /* 📈 End of Number List Item Graph Style ! 📉 */
+}
+
+@media (max-width: 935px) {
+    /* 🥇 Hero Section Style : 🥇 */
+    .hero_section h1 {
+        font-size: 55px;
+        line-height: 58px;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 35px;
+    }
+
+    .hero_section .description {
+        width: 70%;
+    }
+    /* 🥇 End of Hero Section Style ! 🥇 */
+
+    /* 🎨 Header Full Page Style : 🎨 */
+    header { width: 100%; }
+    header .menu_list { display: none; }
+    header .get_started_link {
+        float: right;
+        margin-top: 19px;
+        margin-right: 20px;
+    }
+
+    header #menu_responsive_button {
+        border-color: transparent;
+        background-color: transparent;
+        float: right;
+        margin-top: 20px;
+        margin-right: 45px;
+        display: block!important;
+        cursor: pointer;
+    }
+
+    header #menu_responsive_button svg {
+        width: 35px;
+        height: 35px;
+        stroke: grey;
+    }
+
+    header #responsive_menu_popup {
+        position: fixed;
+        background-color: rgba(65, 64, 64, 0.833);
+        backdrop-filter: blur(8px);
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        z-index: 100!important;
+        padding-left: 35px;
+        padding-top: 25px;
+    }
+
+    header #responsive_menu_popup #close_icon {
+        stroke: white;
+        width: 32px;
+        height: 32px;
+        float: right;
+        margin-right: 43px;
+        margin-top: -16px;
+        cursor: pointer;
+    }
+
+    header #responsive_menu_popup ul {
+        list-style-type: none;
+        width: 90%;
+        text-align: center;
+        margin-top: 10%;
+    }
+
+    header #responsive_menu_popup ul li {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 25px;
+        padding-right: 25px;
+        width: 120px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+        border-radius: 25px;
+        font-size: 17px;
+        color: white;
+    }
+
+    header #responsive_menu_popup ul li a {
+        text-decoration: none;
+        color: white;
+    }
+
+    header #responsive_menu_popup ul .active {
+        background-color: #1eaf51;
+        box-shadow: 0px 0px 60px #bebebe68;
+        color: white;
+    }
+
+    header #responsive_menu_popup ul .active_circle {
+        width: 10px;
+        height: 10px;
+        background-color: white;
+        border-radius: 20px;
+        float: right;
+        margin-top: 6.5px;
+        margin-right: 20px;
+        margin-left: -15px;
+    }
+
+    header #responsive_menu_popup footer {
+        color: white;
+        padding-top: 13px;
+        padding-bottom: 14px;
+        border-radius: 35px;
+        position: absolute;
+        bottom: 0;
+        margin-bottom: 40px;
+        width: 80%;
+        font-size: 14px;
+        background-color: transparent;
+    }
+    /* 🎨 End of Header Full Page Style ! 🎨 */
+
+    /* 🎥 Video Section Page Style : 🎥 */
+    #video_presentation_section .video-js, video, .vjs-tech { width: 90%!important; }
+    #video_presentation_section .demonstration_text { width: 90%!important; }
+    /* 🎥 End of Video Section Page Style ! 🎥 */
+}
+
+@media (max-width: 650px) {
+    /* 📈 Number List Item Graph Style : 📉 */
+    .show_number_section { margin-top: 60px; }
+    .show_number_section .main_title {
+        width: 90%;
+        line-height: 53px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 45px;
+        text-align: left;
+    }
+
+    .show_number_section .main_description {
+        width: 90%;
+        font-size: 15px;
+        margin-top: 10px;
+        text-align: left;
+    }
+    /* 📈 End of Number List Item Graph Style ! 📉 */
+}
+
+@media (max-width: 535px) {
+    header { box-shadow: 0px 10px 80px rgba(219, 219, 219, 0.467)!important; }
+    header .get_started_link { margin-right: 20px!important; }
+    .hero_section { padding-top: 150px; }
+
+    .hero_section h1 {
+        width: 90%;
+        font-size: 43px;
+        line-height: 43px;
+        margin-bottom: 25px;
+    }
+
+    .hero_section .description {
+        font-size: 16px;
+        width: 80%;
+    }
+
+    header .website_logo {
+        margin-left: -30px;
+        margin-top: -1px;
+    }
+
+    header #responsive_menu_popup ul {
+        margin-left: -10px;
+        margin-top: 20%;
+    }
+
+    #video_presentation_section .demonstration_text { 
+        font-size: 13px; 
+        margin-top: 17px;
+    }
+
+    /* 📈 Number List Item Graph Style : 📉 */
+    .show_number_section ul li {
+        padding-bottom: 30px;
+        padding-top: 20px;
+    }
+
+    .show_number_section ul li h1 {
+        font-size: 50px;
+    }
+
+    .show_number_section ul li h1 small {
+        font-size: 15px;
+        margin-left: 3px;
+    }
+
+    .show_number_section ul li p {
+        font-size: 15px;
+    }
+
+    .show_number_section ul li #type1 { margin-right: 49px; }
+    .show_number_section ul li #type2 { margin-right: 83px; }
+    .show_number_section ul li #type3 { margin-right: 43px; }
+    .show_number_section ul li #type4 { margin-right: 63px; }
+    /* 📈 End of Number List Item Graph Style ! 📉 */
+}
+
+@media (max-width: 435px) {
+    .main_page_footer p {
+        width: 270px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
