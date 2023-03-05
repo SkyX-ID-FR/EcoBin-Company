@@ -28,8 +28,8 @@
              <img class="website_logo" src="images/FINAL_Logo_RemoveBG.png" alt="website_logo"/>
              <!-- <h1 class="title_logo">Eco'Bin</h1> -->
              <ul class="menu_list">
-                 <li><a class="active" href="index.html">Accueil</a></li> 
-                 <li><a href="product.html">Notre produit</a></li>
+                 <li><a href="index.html">Accueil</a></li> 
+                 <li><a class="active" href="product.html">Notre produit</a></li>
                  <li><a href="#">Notre équipe</a></li>
              </ul>
          
@@ -39,15 +39,39 @@
              <div id="responsive_menu_popup">
                  <svg id="close_icon" viewBox="0 0 24 24" fill="none"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
                  <ul>
-                     <li class="active"><a href="index.html">Accueil <div class="active_circle"></div></a></li>
-                     <li><a href="product.html">Notre produit</a></li>
+                     <li><a href="index.html">Accueil</a></li>
+                     <li class="active"><a href="product.html">Notre produit <div class="active_circle_2"></div></a></li>
                      <li>Notre équipe</li>
                      <footer>Eco'Bin&copy; Copyright 2022-2023 <br/>Tous droits réservés ! ✨</footer>
                  </ul>
              </div>
          </header>
  
-         coucou
+         <section class="product_view">
+            <div class="view_box">
+                <img id="mockup_img" src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/77aab221768987.563073339a275.jpg" alt="product_img"/>
+                <button title="Photo de suggestion de présentation..." class="info_button"><svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg></button>
+
+                <div class="img_selector">
+                    <img class="disabled" id="item_1" src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/77aab221768987.563073339a275.jpg">
+                    <img id="item_2" src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/17870a21768987.56307333a1a90.jpg"/>
+                    <img id="item_3" src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/6308c821768987.56307333ab785.jpg"/>
+                </div>
+            </div>
+
+            <div class="product_box">
+                <h1>~ 150€</h1>
+                <div class="suggest_span">
+                    <div class="item_suggest"><svg viewBox="0 0 24 24" fill="none"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg> Pas de livraison</div>
+                    <div class="item_suggest"><svg viewBox="0 0 24 24" fill="none"><polyline points="20 6 9 17 4 12"></polyline></svg> Dans les mairies, écoles, villes, etc...</div>
+                    <div class="item_suggest"><svg viewBox="0 0 24 24" fill="none"><polyline points="20 6 9 17 4 12"></polyline></svg> Engagement écologique</div>
+                </div>
+                <p class="explain_text">Notre produit est donc un pavé droit de 70cm de hauteur, de 30cm de largeur et enfin de 100cm de longueur entièrement constitué de bois. Dû à notre âge et à notre condition de lycéens nous allons donc assuré la production depuis notre site d’étude, de surcroît, la production sera effectuée par les membres de notre mini-entreprise et dirigée par le chef de production.</p>
+                <button id="order_button"><svg viewBox="0 0 24 24" fill="none"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg> Commander dès maintenant !</button>
+            </div>
+
+            <div class="sub_description"></div>
+         </section>
      </body>
  
      <footer class="main_page_footer">

@@ -46,7 +46,7 @@ header {
     position: fixed;
     z-index: 100;
     background-color: white;
-    width: 93%;
+    width: 100%;
 }
 
 #responsive_menu_popup, #menu_responsive_button { display: none; }
@@ -108,7 +108,7 @@ header .menu_list li:active { transform: scale(0.95); }
 
 header .get_started_link {
     float: right;
-    margin-right: -4.5%;
+    margin-right: 2.5%;
     border-radius: 25px;
     padding-top: 7.5px;
     padding-bottom: 10px;
@@ -231,6 +231,7 @@ header .get_started_link:active { transform: scale(0.95); }
 .show_number_section {
     margin-top: 90px;
     text-align: center;
+    margin-bottom: 70px;
 }
 
 .show_number_section .main_title {
@@ -293,10 +294,152 @@ header .get_started_link:active { transform: scale(0.95); }
 }
 /* 📈 End of Number List Item Graph Style ! 📉 */
 
+/* 💰 Product Page View Style : 💰 */
+.product_view {
+    padding-top: 150px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.view_box { 
+    grid-area: 1 / 1 / 4 / 4; 
+    padding: 15px;
+}
+
+.view_box #mockup_img {
+    width: 75%;
+    margin: auto;
+    display: block;
+    border-radius: 10px;
+    box-shadow: 10px 20px 50px rgb(235, 235, 235);
+}
+
+.view_box .info_button {
+    background-color: transparent;
+    border-color: transparent;
+    float: right;
+    margin-top: -420px;
+    margin-right: 13.5%;
+    position: relative;
+    cursor: pointer;
+}
+
+.view_box .info_button svg {
+    width: 25px;
+    height: 25px;
+    stroke: white;
+    stroke-width: 2px; 
+}
+
+.view_box .img_selector {
+    text-align: center;
+    margin-left: -15px;
+    margin-top: 15px;
+}
+
+.view_box .img_selector .disabled { filter: grayscale(100); }
+.view_box .img_selector img {
+    width: 12%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 50px rgb(226, 226, 226);
+    margin-left: 7px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.view_box .img_selector img:hover { transform: scale(0.95); }
+/* .view_box .img_selector img:active { transform: scale(0.90); } */
+
+.product_box { 
+    grid-area: 1 / 4 / 4 / 7; 
+    padding: 15px;
+    margin-left: -105px;
+    padding-top: 30px;
+}
+
+.product_box h1 {
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.product_box .suggest_span {
+    margin-bottom: 60px;
+}
+
+.product_box .suggest_span .item_suggest {
+    border: 2px solid rgb(206, 206, 206);
+    margin-right: 9px;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 7px;
+    border-radius: 20px;
+    margin-top: 5px;
+    padding-right: 20px;
+    float: left;
+}
+
+.product_box .suggest_span .item_suggest svg {
+    stroke: rgb(85, 85, 85);
+    stroke-width: 2px;
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-right: 7px;
+    margin-top: 2px;
+}
+
+.product_box .explain_text {
+    color: gray;
+    width: 85%;
+}
+
+.product_box #order_button {
+    background-color: #15ba54;
+    margin-top: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 12px;
+    padding-bottom: 13px;
+    border-color: transparent;
+    border-radius: 25px;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    box-shadow: 0px 0px 50px rgb(237, 237, 237);
+    transition: all 0.4s;
+}
+
+.product_box #order_button:hover {
+    box-shadow: 0px 0px 60px rgb(210, 210, 210);
+    transform: scale(1.05);
+}
+
+.product_box #order_button:active { transform: scale(0.95); }
+.product_box #order_button svg {
+    height: 20px;
+    width: 20px;
+    stroke: white;
+    stroke-width: 2px;
+    margin-right: 7px;
+    margin-bottom: -4.5px;
+}
+
+.sub_description { 
+    grid-area: 4 / 1 / 6 / 7; 
+    background-color: transparent;
+    padding: 15px;
+}
+/* 💰 End of Product Page View Style ! 💰 */
+
 /* 📮 Main Page Footer Page : 📮 */
 .main_page_footer {
     border-top: 2px solid rgb(218, 218, 218);
-    margin-top: 70px;
     bottom: 0;
     text-align: center;
     padding-top: 35px;
