@@ -18,8 +18,8 @@
 </p><br/>
 
 <p align="center">      
-  <img width="50" src="https://images.weserv.nl/?url=avatars.githubusercontent.com/u/89273191?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d"/>&ensp;
-  <img width="50" src="https://images.weserv.nl/?url=avatars.githubusercontent.com/u/104075872?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d"/>
+  <a href="https://github.com/SkyX-ID-FR" target="_blank"><img width="50" src="https://images.weserv.nl/?url=avatars.githubusercontent.com/u/89273191?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d"/></a>&ensp;
+  <a href="https://github.com/XlaTor07" target="_blank"><img width="50" src="https://images.weserv.nl/?url=avatars.githubusercontent.com/u/104075872?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d"/></a>
 </p>
 
 <p align="center">Made with ❤ by @SkyX [ID FR] & @XlaTor <br/><i>Version 1.2.1 - Eco'Bin Company Copywrite&copy; 2022-2023</i></p>
