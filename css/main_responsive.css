@@ -38,7 +38,36 @@
     /* 📈 End of Number List Item Graph Style ! 📉 */
 }
 
+@media (max-width: 1100px) {
+    .sub_description {
+        display: block;
+        margin-top: -130px;
+    }
+
+    .sub_description .arrow_icon {
+        margin: 0px;
+        transform: rotate(90deg);
+        margin: auto;
+        display: block;
+    }
+
+    .sub_description .txt_follow { 
+        padding: 0px; 
+        text-align: center; 
+    }
+
+    .sub_description .txt_follow p {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .sub_description .logo_follow img {
+        margin-top: 20px;
+    }
+}
+
 @media (max-width: 1080px) {
+    .sub_description { margin-top: 0px; }
     /* 💰 Product Page View Style : 💰 */
     .product_view { display: block; }
     .product_box {
@@ -321,6 +350,22 @@
     /* 📈 End of Number List Item Graph Style ! 📉 */
 }
 
+@media (max-width: 510px) {
+    .sub_description .txt_follow h1 {
+        font-size: 40px;
+        margin-bottom: 5px;
+    }
+
+    .sub_description .txt_follow p {
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .sub_description .logo_follow img {
+        width: 200px;
+    }
+}
+
 @media (max-width: 435px) {
     .main_page_footer p {
         width: 270px;
@@ -347,4 +392,8 @@
     .view_box .img_selector { margin-left: -25px; }
     .view_box .info_button { margin-right: 2.5%; }
     /* 💰 End of Product Page View Style ! 💰 */
+}
+
+@media (max-width: 380px) {
+    .sub_description .txt_follow h1 { font-size: 37px; }
 }

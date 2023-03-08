@@ -432,9 +432,55 @@ header .get_started_link:active { transform: scale(0.95); }
 
 .sub_description { 
     grid-area: 4 / 1 / 6 / 7; 
-    background-color: transparent;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    padding: 15px;
+    margin-top: 55px;
+}
+
+.sub_description .arrow_icon {
+    stroke: rgb(162, 162, 162);
+    stroke-width: 1.5px;
+    margin: 0px;
+    width: 40px;
+    height: 40px;
+    margin-left: 290%;
+    margin-top: -190px;
+
+}
+
+.sub_description .txt_follow {
+    grid-area: 1 / 1 / 6 / 4; 
+    padding: 15px;
+    padding-left: 40px;
+}
+
+.sub_description .txt_follow h1 {
+    font-size: 55px;
+    font-weight: 800;
+}
+
+.sub_description .txt_follow p {
+    font-size: 16px;
+    font-weight: 350;
+    width: 85%;
+    color: gray;
+}
+
+.sub_description .logo_follow {
+    grid-area: 1 / 4 / 6 / 7;
     padding: 15px;
 }
+
+.sub_description .logo_follow img {
+    margin: auto;
+    display: block;
+    margin-top: -40px;
+}
+
 /* 💰 End of Product Page View Style ! 💰 */
 
 /* 📮 Main Page Footer Page : 📮 */
