@@ -483,6 +483,70 @@ header .get_started_link:active { transform: scale(0.95); }
 
 /* 💰 End of Product Page View Style ! 💰 */
 
+/* 👨‍👧‍👦 All Member Page Style : 👨‍👧‍👦 */
+.member_section {
+    padding-top: 135px;
+    height: 100vh;
+}
+
+.member_section .member_card { 
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    width: 680px;
+    justify-content: center;
+    display: flex;
+    padding: 10px;
+    border-radius: 30px;
+    padding-top: 13px;
+    padding-bottom: 15px;
+    margin-top: 75px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    transition: all 0.4s;
+}
+
+.member_section .num2 { width: 600px; }
+.member_section .num3 { width: 570px; }
+.member_section .num4 { width: 440px; }
+.member_section .num5 { width: 510px; }
+.member_section .num6 { width: 440px; }
+.member_section .member_card:hover { transform: translate(-50%, -50%) scale(1.04); }
+.member_section .member_card img {
+    border-radius: 50%;
+    object-fit: cover;
+    height: 80px;
+    width: 80px;
+    float: left;
+    margin-left: -22px;
+}
+
+.member_section .member_card h1 {
+    font-weight: 700;
+    margin-left: 15px;
+    margin-top: 4px;
+    float: left;
+    font-size: 30px;
+}
+
+.member_section .member_card p {
+    font-size: 15px;
+    color: rgb(179, 179, 179);
+    margin-top: -5px;
+}
+
+.member_section .arrow_down {
+    width: 27px;
+    height: 27px;
+    stroke-width: 2px;
+    stroke: rgb(179, 179, 179);
+    margin-top: 145px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* 👨‍👧‍👦 End of All Member Page Style 👨‍👧‍👦 */
+
 /* 📮 Main Page Footer Page : 📮 */
 .main_page_footer {
     border-top: 2px solid rgb(218, 218, 218);
