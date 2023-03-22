@@ -265,6 +265,40 @@
         text-align: left;
     }
     /* 📈 End of Number List Item Graph Style ! 📉 */
+
+    /* 👨‍👧‍👦 All Member Page Style : 👨‍👧‍👦 */  
+    .member_section {
+        height: 110vh;
+    }
+
+    .member_section .member_card {
+        display: block;
+        text-align: center;
+        width: 85%;
+        padding-bottom: 20px;
+    }  
+
+    .member_section .member_card h1 {
+        float: none;
+        font-size: 25px;
+    }
+
+    .member_section .member_card img {
+        float: none;
+        margin-left: -25px;
+        width: 70px;
+        height: 70px;
+    }
+
+    .member_section .arrow_down {
+        opacity: 0;
+        margin-top: 170px;
+    }
+
+    .member_section .member_card p {
+        margin-top: -3px;
+    }
+    /* 👨‍👧‍👦 End of All Member Page Style 👨‍👧‍👦 */
 }
 
 @media (max-width: 600px) {
@@ -393,6 +427,38 @@
         width: 270px;
         margin-left: auto;
         margin-right: auto;
+    }
+}
+
+@media (max-width: 415px) {
+    .member_section {
+        height: 150vh;
+    }
+
+    .member_section .member_card {
+        width: 85%;
+    }
+
+    .member_section .member_card img {
+        width: 65px;
+        height: 65px;
+        margin-left: -30px;
+    }
+
+    .member_section .member_card h1 {
+        font-size: 25px;
+        line-height: 27px;
+        width: 93%;
+    }
+
+    .member_section .member_card p {
+        width: 80%;
+        margin: auto;
+        line-height: 20px;
+    }
+
+    .member_section .arrow_down {
+        margin-top: 180px;
     }
 }
 
